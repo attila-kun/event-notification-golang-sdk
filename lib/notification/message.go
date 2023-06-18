@@ -19,10 +19,10 @@ This package implement two methods required for Event Notification Processing
 package notification
 
 import (
-	constants "github.com/ebay/event-notification-golang-sdk.git/lib/constants"
-	helper "github.com/ebay/event-notification-golang-sdk.git/lib/helper"
-	pojo "github.com/ebay/event-notification-golang-sdk.git/lib/pojo"
-	processor "github.com/ebay/event-notification-golang-sdk.git/lib/processor"
+	constants "github.com/attila-kun/event-notification-golang-sdk/lib/constants"
+	helper "github.com/attila-kun/event-notification-golang-sdk/lib/helper"
+	pojo "github.com/attila-kun/event-notification-golang-sdk/lib/pojo"
+	processor "github.com/attila-kun/event-notification-golang-sdk/lib/processor"
 	"strings"
 )
 

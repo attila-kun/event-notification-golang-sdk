@@ -17,8 +17,8 @@ This package include message processor to process message based on their topics
 package processor
 
 import (
-	constants "github.com/ebay/event-notification-golang-sdk.git/lib/constants"
-	pojo "github.com/ebay/event-notification-golang-sdk.git/lib/pojo"
+	constants "github.com/attila-kun/event-notification-golang-sdk/lib/constants"
+	pojo "github.com/attila-kun/event-notification-golang-sdk/lib/pojo"
 )
 
 //Processor is generice processor for message processing by topics

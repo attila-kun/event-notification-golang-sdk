@@ -25,8 +25,8 @@ import (
 	"strings"
 	lru "github.com/hashicorp/golang-lru"
 
-	constants "github.com/ebay/event-notification-golang-sdk.git/lib/constants"
-	pojo "github.com/ebay/event-notification-golang-sdk.git/lib/pojo"
+	constants "github.com/attila-kun/event-notification-golang-sdk/lib/constants"
+	pojo "github.com/attila-kun/event-notification-golang-sdk/lib/pojo"
 )
 
 var m = make(map[string]pojo.Environment)

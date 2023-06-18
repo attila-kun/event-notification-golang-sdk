@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	sdk "github.com/ebay/event-notification-golang-sdk.git/lib/notification"
-	pojo "github.com/ebay/event-notification-golang-sdk.git/lib/pojo"
+	sdk "github.com/attila-kun/event-notification-golang-sdk/lib/notification"
+	pojo "github.com/attila-kun/event-notification-golang-sdk/lib/pojo"
 )
 
 var config = new(pojo.Config)

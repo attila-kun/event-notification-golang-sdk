@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"strings"
 
-	constants "github.com/ebay/event-notification-golang-sdk.git/lib/constants"
-	pojo "github.com/ebay/event-notification-golang-sdk.git/lib/pojo"
-	service "github.com/ebay/event-notification-golang-sdk.git/lib/service"
+	constants "github.com/attila-kun/event-notification-golang-sdk/lib/constants"
+	pojo "github.com/attila-kun/event-notification-golang-sdk/lib/pojo"
+	service "github.com/attila-kun/event-notification-golang-sdk/lib/service"
 )
 
 //Get XeBay Signature header takes in signature decode using base64 and returns it
@@ -65,7 +65,7 @@ func formatKey(key string) string {
 //ValidateSignature is to validate signature used in request
 //Returns string Success/Error
 //Input
-//	message - message details 
+//	message - message details
 //	signatureHeader - base64 encoded signature
 //	config - specific custom environment
 //Returns

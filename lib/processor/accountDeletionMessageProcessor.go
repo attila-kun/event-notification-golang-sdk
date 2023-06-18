@@ -19,7 +19,7 @@ package processor
 import (
 	"fmt"
 
-	pojo "github.com/ebay/event-notification-golang-sdk.git/lib/pojo"
+	pojo "github.com/attila-kun/event-notification-golang-sdk/lib/pojo"
 )
 
 //AccountDeletionMessageProcessor is to process account deletion
